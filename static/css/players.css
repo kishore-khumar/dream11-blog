@@ -1,0 +1,102 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+body{
+    font-size:1rem;
+    margin:0;
+
+}
+
+.container{
+    width:90%;
+    max-width:960px;
+    margin:0 auto;
+
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    background:rgb(180, 236, 180);
+    
+    list-style:none;
+    
+    padding:2em;
+    
+    justify-content: space-evenly;;
+}
+nav li{
+    font-size:1.5rem;
+    margin:0 1em;
+    
+    
+
+}
+nav a{
+    font-family: Lucida Sans Unicode;
+    text-decoration:none;
+    
+    color:black;
+    font-weight: bolder;
+    padding:0.4em;
+   
+
+}
+.players{
+    border-bottom:2px solid black;
+
+}
+
+        /* ------  header navigation ends -------- */
+header h1{
+    text-align:center;
+    color:rgb(40, 5, 73);
+    font-size:2rem;
+    margin-bottom:0.6em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--------footer---------*/
+
+footer{
+    margin-top: 2em;
+    width:100%;
+    background:rgb(180, 236, 180);;
+    display:flex;
+    justify-content:center;
+}
+footer ul{
+    display:flex;
+    
+
+    
+    
+}
+footer li{
+    list-style:none;
+    padding:0.4em 0.8em; 
+    
+    font-size:2.2em;
+}
+
+
+
+

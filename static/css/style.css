@@ -1,0 +1,734 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+body{
+    font-size:1rem;
+    margin:0;
+
+}
+
+.container{
+    width:90%;
+    max-width:960px;
+    margin:0 auto;
+
+}
+
+nav ul{
+    display:flex;
+    justify-content: center;
+    background:rgb(180, 236, 180);
+    
+    list-style:none;
+    
+    padding:2em;
+    
+    justify-content: space-evenly;;
+}
+nav li{
+    font-size:1.5rem;
+    margin:0 1em;
+    
+    
+
+}
+nav a{
+    font-family: Lucida Sans Unicode;
+    text-decoration:none;
+    
+    color:black;
+    font-weight: bolder;
+    padding:0.4em;
+   
+
+}
+.home{
+    border-bottom:2px solid black;
+
+}
+
+ /*---------------------------------------------header vanigation----------------*/
+header{
+    margin-bottom:2rem;
+}
+
+header h1{
+    text-align:center;
+    font-size:4rem;
+}
+header h3{
+    text-align:center;
+    font-size:2rem;
+    color:rgb(37, 35, 35);
+}
+
+
+
+.banner{
+    
+    width:100%;
+    margin:0 auto;
+}
+.banner img{width:100%;}
+.heading{
+    color:red;
+    display:block;
+    text-align:center;
+    margin:0 auto;
+}
+
+/* ---------------------------------------- image backgroud---------------------
+.image-content{
+    
+    
+    background-image: url("ipltrophy.jpg");
+    border:2px solid red;
+    max-height:300px;
+    width:70%;
+    display:block;
+    margin:0 auto;
+    background-size: cover;
+    height:30em;
+    position:absolute;
+
+}
+
+.image-content img{
+    border:2px solid red;
+    max-height:300px;
+    width:70%;
+    display:block;
+    margin:0 auto;
+    
+    position: absolute;
+}
+.text{
+
+    font-size:2rem;
+    display:block;
+    color:rgb(233, 241, 238);
+    position: relative;
+    top:50%;
+    left:2%;
+    
+    padding:0;
+}
+.image-content h4{
+    background:rgb(16, 243, 73,0.2);
+    width:30%;
+    text-align:center;
+    
+}
+
+ */
+.btn{
+    
+    
+    
+    
+    color:black;
+    background:rgba(140, 240, 9, 0.795);
+    border:none;
+    border-radius:25px;
+    
+    
+}
+.btn h3{
+    padding:0.6em;
+    font-size:1.4em;
+}
+/*
+.btn a{
+    padding:0.3em 0.2em;
+    text-decoration:none;
+    font-size:0.5rem;
+    color:rgba(35, 248, 63, 0.856);
+}
+*/
+.btn:hover{
+    
+    background:whitesmoke;
+    color:red;
+    border:none;
+    
+    
+}
+.btn a:hover{
+    color:rgba(0, 0, 0, 0.877);
+    border:none;
+}
+
+
+
+
+/*-------------------------------------image and button ends-------------------------*/
+.content{
+    font-size:2rem;
+    margin-top:1em;
+}
+.content-imp{
+    color:red;
+}
+i{
+    font-size:3rem;
+    margin-right:0.6em;
+}
+.click-here{
+    font-size:3rem;
+    margin-top:2rem;
+    background:rgb(217, 240, 10);
+    padding:1em 0;
+}
+.highlight{
+    color:red;
+}
+
+
+/*----------------------------content and click here ends here ---------------------*/
+main{
+    width:75%;
+}
+aside{
+    margin:0;
+    width:20%;
+    
+    padding:0;
+    
+    
+}
+.updates-header h1{
+    text-align:center;
+    
+}
+.updates-header i{
+    margin:0 auto;
+    
+}
+.updates-header{
+    /*background:yellow*/
+}
+.flex-container{
+    display:flex;
+    
+    flex-direction:column;
+    justify-content: space-between;
+    box-sizing:border-box;
+    
+
+}
+.flex-container h1{
+    text-align:center;
+    font-size:2rem;
+    
+    font-weight:bolder;
+    /*border : 2px solid red */
+    font-family:Franklin Gothic Medium;
+    box-sizing: border-box;
+    
+    
+}
+.flex-container h3{
+    padding:4em 0;
+    border:2px dashed red;
+    box-sizing: border-box;
+}
+
+/*
+.update-separation{
+    padding:2.4em 0;
+
+}
+.
+.updates{
+    border:4.5px dotted rgba(248, 64, 8, 0.87);
+    margin-top:2.8em;
+    padding:5.5em 0;
+    display:block;
+    
+    
+}
+.last-column
+{
+    margin-bottom: -2em;
+    padding:4.8em 0;
+    
+} 
+*/
+.updates h3{
+    text-align:center;
+    font-style:italic;
+    font-size:1.5rem;
+}
+a{
+    text-decoration:none;
+
+}
+.csk-color{
+    background:rgb(245, 245, 129);
+}
+.csk-color:hover{
+    background:rgb(248, 248, 84);
+}
+.rcb-color{
+    background:rgb(253, 148, 148);
+}
+.rcb-color:hover{
+    background:rgb(241, 107, 107);
+}
+.mi-color{
+    background:rgb(145, 243, 247);
+}
+.mi-color:hover{
+    background:rgb(84, 239, 245);
+}
+.kkr-color{
+    background:rgb(238, 143, 238);
+}
+.kkr-color:hover{
+    background:rgb(230, 98, 230);
+}
+
+.container-flex{
+    display:flex;
+    justify-content: space-between;
+}
+
+
+/* --------------------------------------------recent matches ------------------ */
+.recent-match{
+    margin-top:2em;
+    
+    
+    box-sizing: border-box;
+}
+.recent-match h1{
+    text-align:center;
+    color:rgb(0, 0, 0);
+    font-family: impact;
+}
+.matches{
+    
+    
+    
+    margin-top:1em;
+    box-sizing: border-box;
+}
+.btn-match{
+    width:100%;
+    padding:1em;
+    background:rgb(192, 192, 240);
+    border:1px rgb(161, 7, 182) solid;
+}
+.btn-match:hover{
+    background:rgb(155, 155, 250);
+}
+.matches h2{
+    word-spacing: 3em;
+}
+.matches span{
+    font-weight:bolder;
+    font-family:Malgun Gothic;
+    word-spacing: normal;
+}
+
+/*  -------- quotes ------ */
+
+.quotes{
+    margin-top: 2em;
+    width:100%;
+    background:radial-gradient(circle,blue ,green);
+    font-size:2rem;
+    
+}
+.quotes p{
+    text-align: center;
+    margin:0 auto;
+    line-height: 2em;
+    color:whitesmoke;
+}
+
+
+/* -------------footer ---------------*/
+footer{
+    margin-top: 2em;
+    width:100%;
+    background:rgb(180, 236, 180);;
+    display:flex;
+    justify-content:center;
+}
+footer ul{
+    display:flex;
+    
+
+    
+    
+}
+footer li{
+    list-style:none;
+    padding:1em;
+}
+
+
+
+/*-------------------------------comment starts------------------*/
+
+.form{
+    text-align:center;
+    
+    
+    
+}
+
+.main-comment-section{
+    text-align:center;
+    display:block;
+    margin:0 auto;
+    margin-top:0.5em;
+    
+     
+    font-size:2rem;
+      
+}
+
+.blockquote{
+    margin-top:0.5em;
+    
+    font-size:1.5rem;
+    border-bottom: 1px solid black;
+}
+.btn-1{
+    padding:0.3em;
+    font-size: 1rem;
+    
+}
+.btn-1:hover{
+    background:rgb(183, 183, 250);
+
+}
+.comment-content{
+    font-weight: 500;
+    margin:0;
+}
+.source{
+    font-style:italic;
+    font-size:1rem;
+    margin-left:0.5em;
+}
+
+.comment-title{
+    text-align:center;
+}
+
+
+.reply-class{
+    color:brown;
+    
+}
+.reply-content{
+    font-size:1.4rem;
+    margin:0;
+}
+.count{
+    color:rgb(104, 6, 6);
+    margin-bottom:0.3em;
+}
+.count i{
+    font-size:1.5rem;
+    margin-left:0.3em;
+}
+.box{
+    width:100%;
+    margin:0 auto;
+    border:2px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:600px){
+    header{
+        margin-bottom:1em;
+    }
+    
+    header h1{
+        text-align:center;
+        font-size:2rem;
+    }
+    header h3{
+        text-align:center;
+        font-size:1rem;
+        color:rgb(37, 35, 35);
+    }
+    /*----------------------------------title ends-------------*/
+    .content{
+        font-size:1.6rem;
+        margin-top:1em;
+    }
+    .content-imp{
+        color:red;
+    }
+    i{
+        font-size:2.2rem;
+        margin-right:0.6em;
+    }
+    .click-here{
+        font-size:2.2rem;
+        margin-top:1em;
+        background:rgb(217, 240, 10);
+        padding:1em 0;
+    }
+    .highlight{
+        color:red;
+    }
+    /*------------------------content and click here ends here---------------------*/
+    main{
+        width:100%;
+    }
+    aside{
+        margin:0;
+        width:70%;
+        
+        padding:0;
+        
+        margin:4em auto;
+    }
+    .container-flex{
+        
+        display:flex;
+        flex-direction: column;
+    }
+    
+    .update-separation{
+        margin-top: 2em;
+    }
+    /*----------------------------flex aligned twice------------*/
+    .matches h2{
+        word-spacing: 0.5em;
+        font-size:1rem;
+    }
+
+    /*----------------------------recent match ends---------------------*/
+    .quotes p{
+        font-size:1rem;
+    }
+    .source{
+        font-style:italic;
+        font-size:0.9rem;
+        margin-left:0.5em;
+    }
+    .blockquote{
+        margin-top:0.5em;
+        
+        font-size:1.3rem;
+    }
+    .btn-1{
+        padding:0.3em;
+        font-size: 1rem;
+        background:rgb(245, 24, 24);
+        color:white;
+        border:none;
+    }
+    .btn-1:hover{
+        background:rgb(105, 27, 3);
+        color:white;
+        border:none;
+    }
+    .reply-content{
+        font-size:1.3rem;
+        margin:0;
+    }
+    /*-----------------------quotes------------------*/
+        
+    /*.banner{
+        position:relative;
+        width:90%;
+        margin:0 auto;
+    }
+    .banner img{width:100%;}
+    .heading{color:red;position:absolute;top:40%;width:30%;margin-left:-23em;border:none;}
+    .btn{    
+        color:black;
+        background:rgba(140, 240, 9, 2.7915);
+        border:none;
+        border-radius:10px;  
+        border:none;           
+    }
+    
+    .btn h3{
+        padding:0.6em;
+        font-size:1em;
+        border:none;
+    }
+    */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+@media(max-width:500px){
+    nav ul{
+        flex-direction:column;
+        padding:0;
+        align-items: center;
+    }
+    nav li{
+        margin-top:0;
+        margin-bottom: 0.4em;
+    }
+    nav a{
+        padding:0.2em;
+    }
+    header h1{
+        font-size:2rem;
+    }
+    header h3{
+        font-size:1rem;
+    }
+    .image-content{
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:15em;
+    }
+    .image-content img{
+        width:100%;
+        position: absolute;
+    }
+    
+    .btn{
+        
+        position: relative;
+        top:8em;
+        left:1em;
+        background:rgb(248, 249, 250);
+        border:none;
+        border-radius:88px;
+        
+        
+    }
+    .btn a{
+        padding:0.3em 0.2em;
+        text-decoration:none;
+        font-size:1rem;
+        color:rgba(3, 5, 3, 0.856);
+    }
+    .text{
+
+        font-size:1.5rem;
+        display:block;
+        color:rgb(236, 241, 240);
+        position: relative;
+        top:40%;
+        left:4%;
+        
+        
+    }
+    .image-content h4{
+        background:none;
+        width:40%;
+        
+    }
+    main{
+        width:70%
+        
+    }
+    aside{
+        width:25%;
+    }
+
+    .content{
+        font-size:1.5em;
+    }
+    .click-here{
+        font-size:1.8rem;
+    }
+    .matches h2{
+        word-spacing: 0.5em;
+    }
+
+} 

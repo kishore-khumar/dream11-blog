@@ -1,0 +1,100 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+body{
+    font-size:1rem;
+    margin:0;
+    background:url(/static/images/naturebackground.jpg);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    width:90%;
+    max-width:960px;
+    margin:0 auto;
+
+}
+
+/* ----------------- mandatory------------------*/
+
+.title{
+    font-size:2rem;
+    color:rgb(240, 13, 13);
+    text-align:center;
+    margin:0.7em 0;
+}
+.header{
+    text-align:center;
+    color:rgba(243, 151, 12, 0.979);
+    font-size:1.5rem;
+    
+    margin-bottom:0.3em;
+}
+.first-row{
+    
+    min-height:4em;
+    margin-bottom:1.7em;
+}
+
+.first-row p{
+    font-size:1.2rem;
+    font-family:Optima;
+    
+    text-align:center;
+    color:white;
+}
+.second-row{
+    margin-bottom:1.7em;
+    
+}
+.second-row p{
+    
+    text-align:center;
+    font-size:1.2rem;
+    font-family:Optima;
+    color:white;
+    
+}
+.third-row{
+    margin-bottom:1.7em;
+}
+.third-row p{
+    font-size:1.2rem;
+    font-family:Optima;
+    
+    background:rgb(239, 250, 139);
+    text-align:center;
+}
+.fourth-row{
+    
+    margin-bottom:1.7em;
+    
+    text-align:center;
+}
+.fourth-row p{
+    width:50%;
+    margin:0 auto;
+    text-align:center;
+    font-size:1.2rem;
+    font-family:Optima;
+
+    background:rgba(184, 228, 248, 0.5);
+}
+.note{
+    text-align:center;
+    margin-bottom:1em;
+    font-size:3rem;
+    color:whitesmoke;
+}
+
+@media(max-width:600px){
+    .note{
+        text-align:center;
+        margin-bottom:1em;
+        font-size:1rem;
+    }
+}

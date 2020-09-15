@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href= {% static '/css/all.min.css' %}>
+    <link rel="stylesheet" type="text/css" href={% static '/css/list.css' %}>
+
+        
+    <title>list of matches</title>
+</head>
+<body>
+    
+    <div class="container container-bottom">
+            <div class="recent-match">
+                <h1>choose the game</h1>
+                {% for obj in objects reversed %}
+                <a href='{{ obj.get_absolute_url }}' class="text-pad">
+                    <div class="matches">
+                    
+                    <button class="btn-match"><h2>match:{{obj.matchnumber}} <span>{{obj.match}}</span>  {{obj.date}} </h2></button>
+                    {% endfor %}
+                    </div>
+                </a> 
+                
+            </div>
+</body>
+</html>

@@ -1,0 +1,51 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href={% static "/css/all.min.css" %}>
+        <link rel="stylesheet" type="text/css" href={% static "/css/analysis.css" %}>
+        <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Analysis</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">{{instance.match}}</h2>
+        <div class="first-row">
+            <h3 class="header">Detailed Analysis</h3>
+            
+            <p class="detailed-analysis"> 
+                
+                {{instance.analysis|linebreaks}}
+                
+            </p>
+            
+        </div>
+        <div class="second-row">
+            <h3 class="header">Stats</h3>
+            <p class="stats"> 
+                {{instance.stats|linebreaks}} 
+            </p>
+        </div>
+        
+        <div class="fourth-row">
+            <h3 class="header">Dream11 Squad</h3>
+            <p class="squads">
+                {{instance.choose11|linebreaks}}
+            </p>
+        </div>
+
+        <div class="third-row">
+            <h3 class="header">Explanation or Reason</h3>
+            <p class="reasons">
+                {{instance.explanation|linebreaks}}
+            </p>
+        </div>
+
+        <h1 class="note">Leave your comment on home page</h1>
+
+    </div>
+        
+</body>
+</html>

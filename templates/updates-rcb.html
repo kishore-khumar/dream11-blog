@@ -1,0 +1,37 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>updates</title>
+    <link rel="stylesheet" type="text/css" href={% static "/css/all.min.css" %}>
+        <link rel="stylesheet" type="text/css" href={% static "/css/updates-rcb.css" %}>
+        <link rel="stylesheet" href=" https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1 class="team-name">Royal Challengers Bangalore</h1>
+        <div class="image">
+            <img src={% static "/images/rcb.jpg" %} alt="image of csk" >
+        </div>
+        
+        <div class="update">
+            {% for obj in objects %}
+                {% if obj.bigbreaking and obj.updatercb %}
+                    <spa>Big Breaking :</spa> 
+                {% endif %}
+                {{obj.updatercb}}
+                {% if obj.updatercb %}-- 
+                 <span>{{obj.timestamp}}</span>
+                {% endif %} 
+                {% if obj.updatercb %}<br><br><hr><br> {% endif %}
+            {% endfor %}
+
+            
+            
+        </div>
+    </div>
+</body>
+</html>

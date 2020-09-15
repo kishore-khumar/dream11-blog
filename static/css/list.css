@@ -1,0 +1,72 @@
+*{
+    padding:0;
+    margin:0;
+    
+}
+body{
+    font-size:1rem;
+    margin:0;
+
+}
+
+.container{
+    width:90%;
+    max-width:960px;
+    margin:0 auto;
+
+}
+
+/*------------------------------- mandatory--------------------- */
+
+.recent-match{
+    margin-top:1em;
+    
+    
+    box-sizing: border-box;
+}
+
+.recent-match h1{
+    text-align:center;
+    color:rgb(250, 12, 12);
+    font-family: Franklin Gothic Medium;
+    margin-bottom:1em;
+    
+}
+.matches{
+    
+    
+    
+    
+    
+    box-sizing: border-box;
+}
+.btn-match{
+    width:100%;
+    padding:1em;
+    border:2px solid black;
+    background:rgb(192, 192, 240);
+    margin-bottom:2em;
+}
+.btn-match:hover{
+    background:rgb(150, 150, 250);
+}
+.matches h2{
+    word-spacing: 3em;
+}
+.btn-match span{
+    font-weight:bolder;
+    font-family:Malgun Gothic;
+    word-spacing: normal;
+    color:red;
+}
+
+
+@media(max-width:600px)
+{
+    .btn-match h2{
+        font-size:1rem;
+    }
+    .matches h2{
+        word-spacing: 0.6em;
+    }
+}
